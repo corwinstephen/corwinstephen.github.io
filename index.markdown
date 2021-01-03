@@ -15,6 +15,6 @@ layout: home
   - [Nilzo Tees](https://nilzotees.com)
 - Web
   - [CityGrows](https://citygro.ws)
-***
+---
 - [@stephen_corwin](https://twitter.com/Stephen_Corwin)
 - [me@stephencorwin.com](mailto:me@stephencorwin.com)

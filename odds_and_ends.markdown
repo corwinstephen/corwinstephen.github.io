@@ -5,7 +5,7 @@
 layout: home
 ---
 ***
-- [Soundcloud](https://soundcloud.com/corwinstephen)
+- [A handful of compositions](https://soundcloud.com/corwinstephen)
 - Sheets
     - [Stephen Corwin - Tea Song](/sheets/stephen-corwin-tea-song.pdf)
     - [Ryuichi Sakamoto - Happy End](/sheets/ryuichi-sakamoto-happy-end.pdf)

@@ -5,6 +5,5 @@
 layout: home
 ---
 ***
-- [@stephen_corwin](https://twitter.com/Stephen_Corwin)
-- [me@stephencorwin.com](mailto:me@stephencorwin.com)
+- [@stephen_corwin](https://twitter.com/Stephen_Corwin) | [me@stephencorwin.com](mailto:me@stephencorwin.com)
 - [Odds and ends](./odds_and_ends)

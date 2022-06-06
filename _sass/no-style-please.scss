@@ -54,9 +54,6 @@ li { margin: 0.4rem 0; }
 hr {
   text-align: center;
   border: 0;
-
-  &:before { content: '/////' }
-  &:after { content: attr(data-content) '/////' }
 }
 
 table, th, td {

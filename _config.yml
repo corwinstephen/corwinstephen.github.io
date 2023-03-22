@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: If this isn’t nice, what is?
+title: Stephen Corwin
 email: me@stephencorwin.com
 description: >- # this means to ignore newlines until "baseurl:"
-  StephenCorwin.com
+  Stephen Corwin is a software developer, writer, and creative based in Montreal, Quebec.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://stephencorwin.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stephen_corwin
@@ -38,6 +38,7 @@ theme_config:
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.

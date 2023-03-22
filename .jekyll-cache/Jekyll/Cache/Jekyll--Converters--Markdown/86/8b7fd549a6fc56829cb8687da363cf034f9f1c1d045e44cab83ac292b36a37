@@ -1,0 +1,16 @@
+I"²<hr />
+<p><img src="http://localhost:4000/assets/img/psc.jpg" alt="Winter in Pointe Saint Charles" /></p>
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td><a href="https://twitter.com/Stephen_Corwin">@stephen_corwin</a></td>
+          <td><a href="mailto:me@stephencorwin.com">me@stephencorwin.com</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li><a href="./odds_and_ends">Odds and ends</a></li>
+</ul>
+:ET

@@ -4,7 +4,11 @@
 
 layout: home
 ---
-***
-![Winter in Pointe Saint Charles]({{site.url}}/assets/img/psc.jpg)
-- [@stephen_corwin](https://twitter.com/Stephen_Corwin) | [me@stephencorwin.com](mailto:me@stephencorwin.com)
+- Projects
+	- [Lunette](https://lunette.app) - A word processor designed for writers
+	- [CityGrows](https://citygrows.com) (Now ClearForms - Acquired by ClearGov in 2022)
+- Places
+	- [Twitter](https://twitter.com/Stephen_Corwin)
+	- [Email](mailto:me@stephencorwin.com)
+	- [YouTube](https://www.youtube.com/@Corwinstephen/featured)
 - [Odds and ends](./odds_and_ends)

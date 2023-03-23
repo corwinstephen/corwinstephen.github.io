@@ -2,10 +2,7 @@
 layout: default
 ---
 <header>
-  <h1>Hello,</h1>
-  {%-if site.theme_config.show_description-%}
-    <p>{{ site.description }}</p>
-  {%-endif-%}
+  <h1>{{ site.description }}</h1>
 </header>
 
 {%-include menu_item.html collection=site.data.menu.entries-%}

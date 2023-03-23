@@ -6,7 +6,7 @@ layout: home
 ---
 - Projects
 	- [Lunette](https://lunette.app) - A word processor designed for writers
-	- [CityGrows](https://citygrows.com) (Now ClearForms - Acquired by ClearGov in 2022)
+	- [CityGrows](https://citygrows.com) - Cofounder/CTO - (Now ClearForms - Acquired by ClearGov in 2022)
 - Places
 	- [Twitter](https://twitter.com/Stephen_Corwin)
 	- [Email](mailto:me@stephencorwin.com)

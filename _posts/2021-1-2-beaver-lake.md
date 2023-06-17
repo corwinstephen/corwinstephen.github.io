@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Beaver lake is closed for skating"
+title:  "⛸️ Beaver lake is closed for skating"
 date:   2021-1-2 6:15:00 -0500
 categories:
   - cities

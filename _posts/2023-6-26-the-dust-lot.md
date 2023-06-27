@@ -9,7 +9,7 @@ categories:
   - urbanism
 published: true
 ---
-I don't know who owns the dust lot on the corner of Bridge and Wellington. But whoever it is, I hope that this year, they won't mow down the wildflowers.
+I don't know who owns the dust lot on the corner of Bridge and Wellington. Whoever it is, I hope that this year, they won't mow down the wildflowers.
 <video
   width="640"
   autoplay

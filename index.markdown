@@ -7,9 +7,10 @@ layout: home
 - Projects
 	- [Lunette](https://lunette.app) - A word processor designed for writers
 	- [CityGrows](https://citygrows.com) - Cofounder/CTO - (Now ClearForms - Acquired by ClearGov in 2022)
+- [Textures](./textures)
+- [Odds and ends](./odds_and_ends)
 - Places
 	- [Twitter](https://twitter.com/Stephen_Corwin)
 	- [Email](mailto:me@stephencorwin.com)
 	- [YouTube](https://www.youtube.com/@Corwinstephen/featured)
-- [Odds and ends](./odds_and_ends)
 - <form style="" action="https://tinyletter.com/corwin" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/corwin', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Newsletter</label></p><p><input placeholder="Your email..." type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p></p></form>

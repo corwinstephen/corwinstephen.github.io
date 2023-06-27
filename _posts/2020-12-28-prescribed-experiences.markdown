@@ -11,7 +11,7 @@ My wife was in Stockholm on vacation of a few years back and--craving a coffee--
 - Everything being created feels like an idea imported from somewhere else
 - The pool of ideas becomes collective
 - There's a "right" way to do everything
-- Even thiking outside the box happens in a predictable way
+- Even thinking outside the box happens in a predictable way
 - 
 
 [jekyll-docs]: https://jekyllrb.com/docs/home

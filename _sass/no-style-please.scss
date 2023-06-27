@@ -88,3 +88,17 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+img + img {
+  margin-top:1rem;
+}
+
+video {
+  left: 50%;
+	margin-left: -46vw;
+	margin-right: -46vw;
+	max-width: 92vw;
+	position: relative;
+	right: 50%;
+	width: 92vw;
+}

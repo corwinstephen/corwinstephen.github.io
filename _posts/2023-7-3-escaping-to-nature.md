@@ -9,7 +9,12 @@ categories:
   - as little as possible
 published: true
 ---
-![japan town]({{site.url}}/assets/img/blog/escaping.webp)
+<video
+  autoplay
+  loop
+>
+  <source src="{{site.url}}/assets/video/tracks.mp4" type="video/mp4">
+</video>
 
 I’ve felt a growing sense that I’ve gotten all I can from the city. Immersing myself in nature is my path toward staying inspired and continuing to grow throughout my thirties. Sadly, I’ve been blocked on taking action on that feeling by the way we do “nature” as a concept in the west, particularly in North America.
 
@@ -21,8 +26,9 @@ North America’s epic failures in urban design are a large part of the problem 
 
 Nature is not a place that can be escaped to. Nature is a system, and that system can be alive anywhere, even in urban areas, just as much as it can be dead in rural ones. But nature is most dead in the places that are built with the tools of modernity. When we rely on those too heavily, they extinguish nature altogether.
 
-I stumbled into the above photo of a road through a mountain town in Japan many years ago, and I saved it to my desktop when I found it because I liked the way it made me feel. Coming back to it today, it’s clear that the reason the town in the photo is so compelling is that it was built not to be near nature, but to allow nature to flow _through_ it.
+![japan town]({{site.url}}/assets/img/blog/escaping.webp)
 
+I stumbled into the above photo of a road through a mountain town in Japan many years ago, and I saved it to my desktop when I found it because I liked the way it made me feel. Coming back to it today, it’s clear that the reason the town in the photo is so compelling is that it was built not to be near nature, but to allow nature to flow _through_ it.
 
 Yes, there is asphalt, but the road is narrow enough that various particles of nature—-animals and seeds and spores and water, etc—-can cross it. Yes, there are structures, but they are not made of impermeable materials that alter watersheds and toxic compounds that disrupt local biology. Yes, there is infrastructure for cars and electricity, but it does not prioritize convenient parking and vehicle access and instead only gives them the bare minimum required to function.
 

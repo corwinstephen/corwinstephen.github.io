@@ -8,7 +8,7 @@ layout: home
 	- [Lunette](https://lunette.app) - A word processor designed for writers
 	- [CityGrows](https://citygrows.com) - Cofounder/CTO - (Now ClearForms - Acquired by ClearGov in 2022)
 - [Textures](./textures)
-- [Lot](./lot)
+- [An empty lot](./lot)
 - [Odds and ends](./odds_and_ends)
 - Places
 	- [Twitter](https://twitter.com/Stephen_Corwin)

@@ -16,7 +16,7 @@ published: true
   <source src="{{site.url}}/assets/video/tracks.mp4" type="video/mp4">
 </video>
 
-I’ve felt a growing sense that I’ve gotten all I can from the city. Immersing myself in nature is my path toward staying inspired and continuing to grow throughout my thirties. Sadly, I’ve been blocked on taking action on that feeling by the way we do “nature” as a concept in the west, particularly in North America.
+It's odd, the way we do “nature” in the west. It's particularly odd in North America. We chase it like a small child lovingly chases a terrified pet around the house, wondering why it won't just stay put for cuddles.
 
 I can search Zillow for properties far from urban areas and closer to national parks, depopulated areas, and unspoiled wilderness. But what comes back aren’t places to live _in_ nature, but rather, spheres of urbanity _near_ nature. I flick through photos and see swaths of land cleared of trees and replaced with grass, poured concrete patios and driveways, and structures whose purpose seems to be to exist in spite of nature, not within it. The Google Map of these places looks like a petri dish that’s been treated with drops of an antibiotic. Where the homes are, nature retreats. When I picture a life there, I picture it not in nature, but in my car, on the way to Walmart.
 

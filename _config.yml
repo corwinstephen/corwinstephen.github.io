@@ -21,7 +21,7 @@
 title: Stephen Corwin
 email: me@stephencorwin.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Stephen Corwin is a Builder, designer, and strategist based in Montreal, Quebec.
+  Stephen Corwin is a builder, designer, and strategist based in Montreal, Quebec.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://stephencorwin.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stephen_corwin

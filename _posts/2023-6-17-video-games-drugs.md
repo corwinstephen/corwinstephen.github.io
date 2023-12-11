@@ -5,7 +5,7 @@ date:   2023-6-17 14:05:00 -0500
 categories:
   - video games
   - drugs
-published: true
+published: false
 ---
 People talk about video games today the way they talked about booze in movies from the 20s, and people who play games are "on the sauce".
 

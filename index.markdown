@@ -5,6 +5,7 @@
 layout: home
 ---
 - Projects
+	- [Kind Human](https://kindhuman.studio) - An alternative design and build studio
 	- [Lunette](https://lunette.app) - A word processor designed for writers
 	- [CityGrows](https://citygrows.com) - Cofounder/CTO - (Now ClearForms - Acquired by ClearGov in 2022)
 - [Textures](./textures)

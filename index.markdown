@@ -5,6 +5,7 @@
 layout: home
 ---
 - Projects
+	- [Plastics Podcast](https://open.spotify.com/show/6mFcaEBDzAQcGklB9cWJCJ?si=6d84b2ef525248f5) - Audio essays investigating the making of culture, meaning, ideology, and their relationship to contemporary life.
 	- [Kind Human](https://kindhuman.studio) - An alternative design and build studio
 	- [Lunette](https://lunette.app) - A word processor designed for writers
 	- [CityGrows](https://citygrows.com) - Cofounder/CTO - (Now ClearForms - Acquired by ClearGov in 2022)

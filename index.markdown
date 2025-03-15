@@ -10,6 +10,7 @@ layout: home
   - [ddriftt](https://ddriftt.com) - booking platform for curated stays
   - [Kind Human](https://kindhuman.studio) - An alternative design and build studio
   - [Great Canadian Loyalist](https://www.canadianloyalist.ca/) - A proudly Canadian apparel brand
+  - [Lunette](https://lunette.app) - A word processor for people who write
   - [CityGrows](https://citygrows.com) - Cofounder/CTO - (Now ClearForms - Acquired by ClearGov in 2022)
 - [Textures](./textures)
 - [An empty lot](./lot)

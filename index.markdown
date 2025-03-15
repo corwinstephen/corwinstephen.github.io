@@ -7,6 +7,7 @@ layout: home
 
 - Projects
   - [Plastics Podcast](https://plasticspod.org) - Complexity via architecture, environment, food, agriculture, work, relationships, technology, other stuff
+  - [ddriftt](https://ddriftt.com) - booking platform for curated stays
   - [Kind Human](https://kindhuman.studio) - An alternative design and build studio
   - [Great Canadian Loyalist](https://www.canadianloyalist.ca/) - A proudly Canadian apparel brand
   - [CityGrows](https://citygrows.com) - Cofounder/CTO - (Now ClearForms - Acquired by ClearGov in 2022)

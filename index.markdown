@@ -9,6 +9,7 @@ layout: home
   - [Plastics Podcast](https://plasticspod.org) - Complexity via architecture, environment, food, agriculture, work, relationships, technology, other stuff
   - [ddriftt](https://ddriftt.com) - booking platform for curated stays
   - [Kind Human](https://kindhuman.studio) - An alternative design and build studio
+  - [Salt Spring Wayfinder](https://wayfinder.stephencorwin.com) - A trail map and ongoing community project on Salt Spring Island
   - [Great Canadian Loyalist](https://www.canadianloyalist.ca/) - A proudly Canadian apparel brand
   - [Lunette](https://lunette.app) - A word processor for people who write
   - [CityGrows](https://citygrows.com) - Cofounder/CTO - (Now ClearForms - Acquired by ClearGov in 2022)

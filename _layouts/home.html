@@ -1,41 +1,64 @@
 ---
 layout: default
 ---
+
 <header class="site-mark">
-  <h1>{{ site.description | strip | replace: ".", "" }}<span class="wiggle-dot"><span class="wiggle-dot__inner">.</span></span></h1>
+  <h1>
+    {{ site.description | strip | replace: ".", "" }}<span class="wiggle-dot"
+      ><span class="wiggle-dot__inner">.</span></span
+    >
+  </h1>
 </header>
 
 <!-- {%-include menu_item.html collection=site.data.menu.entries-%} -->
 
 <nav class="site-nav">
-{{ content }}
+  {{ content }}
+  <span class="site-copy">© {{ 'now' | date: '%Y' }}</span>
 </nav>
 
 <script>
   (function () {
     var dot = document.querySelector(".wiggle-dot");
-    if (!dot) return;
+    if (dot) {
+      function trigger() {
+        var cls = Math.random() < 0.5 ? "wiggle-up" : "wiggle-down";
+        dot.classList.remove("wiggle-up", "wiggle-down");
+        void dot.offsetWidth;
+        dot.classList.add(cls);
+      }
 
-    function trigger() {
-      var cls = Math.random() < 0.5 ? "wiggle-up" : "wiggle-down";
-      dot.classList.remove("wiggle-up", "wiggle-down");
-      void dot.offsetWidth;
-      dot.classList.add(cls);
+      function schedule() {
+        var delay = 2000 + Math.random() * 3000;
+        setTimeout(function () {
+          trigger();
+          schedule();
+        }, delay);
+      }
+
+      dot.addEventListener("animationend", function (e) {
+        if (e.target !== dot) return;
+        dot.classList.remove("wiggle-up", "wiggle-down");
+      });
+
+      schedule();
     }
 
-    function schedule() {
-      var delay = 2000 + Math.random() * 3000;
-      setTimeout(function () {
-        trigger();
-        schedule();
-      }, delay);
+    function randomSep() {
+      // Hiragana: ぁ (U+3041) through ん (U+3093)
+      var code = 0x3041 + Math.floor(Math.random() * (0x3093 - 0x3041 + 1));
+      return String.fromCharCode(code);
     }
 
-    dot.addEventListener("animationend", function (e) {
-      if (e.target !== dot) return;
-      dot.classList.remove("wiggle-up", "wiggle-down");
+    var nav = document.querySelector(".site-nav");
+    if (!nav) return;
+
+    var targets = Array.prototype.slice.call(nav.querySelectorAll("li")).slice(1);
+    var copy = nav.querySelector(".site-copy");
+    if (copy) targets.push(copy);
+
+    targets.forEach(function (el) {
+      el.style.setProperty("--sep", '"' + randomSep() + '"');
     });
-
-    schedule();
   })();
 </script>

@@ -1,10 +1,41 @@
 ---
 layout: default
 ---
-<header>
-  <h1>{{ site.description }}</h1>
+<header class="site-mark">
+  <h1>{{ site.description | strip | replace: ".", "" }}<span class="wiggle-dot"><span class="wiggle-dot__inner">.</span></span></h1>
 </header>
 
 <!-- {%-include menu_item.html collection=site.data.menu.entries-%} -->
 
+<nav class="site-nav">
 {{ content }}
+</nav>
+
+<script>
+  (function () {
+    var dot = document.querySelector(".wiggle-dot");
+    if (!dot) return;
+
+    function trigger() {
+      var cls = Math.random() < 0.5 ? "wiggle-up" : "wiggle-down";
+      dot.classList.remove("wiggle-up", "wiggle-down");
+      void dot.offsetWidth;
+      dot.classList.add(cls);
+    }
+
+    function schedule() {
+      var delay = 2000 + Math.random() * 3000;
+      setTimeout(function () {
+        trigger();
+        schedule();
+      }, delay);
+    }
+
+    dot.addEventListener("animationend", function (e) {
+      if (e.target !== dot) return;
+      dot.classList.remove("wiggle-up", "wiggle-down");
+    });
+
+    schedule();
+  })();
+</script>

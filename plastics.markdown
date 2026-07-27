@@ -4,18 +4,26 @@
 
 layout: page
 title: Plastics Podcast
+hide_title: true
 ---
-[![Plastics Patreon]({{site.url}}/assets/img/plasticsbanner.png)](https://patreon.com/Plastics?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
-I host the Plastics Podcast. I'm investigating culture, meaning, ideology, and their relationship to contemporary life.
 
+Culture, meaning, ideology, and their relationship to contemporary life
 
-<h3>Latest ep</h3>
-<iframe src="https://podcasters.spotify.com/pod/show/corwinstephen/embed" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
+[Spotify](https://open.spotify.com/show/6mFcaEBDzAQcGklB9cWJCJ?si=6d84b2ef525248f5) [YouTube](https://www.youtube.com/@plastics8896/podcasts) [Apple](https://podcasts.apple.com/us/podcast/plastics/id1725599105) [RSS](https://anchor.fm/s/f0ad9940/podcast/rss)
 
-<h3>Available on</h3>
-- [Spotify](https://open.spotify.com/show/6mFcaEBDzAQcGklB9cWJCJ?si=6d84b2ef525248f5)
-- [YouTube](https://www.youtube.com/@plastics8896/podcasts)
-- [Apple Podcasts](https://podcasts.apple.com/us/podcast/plastics/id1725599105)
+{% for episode in site.data.plastics %}
 
-<h3>Support Plastics</h3>
-You can [support Plastics on Patreon](https://patreon.com/Plastics?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
+<div class="episode">
+  {% if episode.image %}
+  <a class="episode__thumb" href="{{ episode.link }}">
+    <img src="{{ episode.image }}" alt="" />
+  </a>
+  {% endif %}
+  <div class="episode__body">
+    <h3><a href="{{ episode.link }}">{{ episode.title }}</a></h3>
+    <p class="episode__meta">{{ episode.date }} · {{ episode.duration }}</p>
+    <p>{{ episode.description }}</p>
+    <audio controls preload="none" src="{{ episode.audio }}"></audio>
+  </div>
+</div>
+{% endfor %}

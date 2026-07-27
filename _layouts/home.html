@@ -44,12 +44,7 @@ layout: default
       schedule();
     }
 
-    function randomSep() {
-      // Hiragana: ぁ (U+3041) through ん (U+3093)
-      var code = 0x3041 + Math.floor(Math.random() * (0x3093 - 0x3041 + 1));
-      return String.fromCharCode(code);
-    }
-
+    var seps = "ふくざつけい";
     var nav = document.querySelector(".site-nav");
     if (!nav) return;
 
@@ -57,8 +52,8 @@ layout: default
     var copy = nav.querySelector(".site-copy");
     if (copy) targets.push(copy);
 
-    targets.forEach(function (el) {
-      el.style.setProperty("--sep", '"' + randomSep() + '"');
+    targets.forEach(function (el, i) {
+      el.style.setProperty("--sep", '"' + seps[i % seps.length] + '"');
     });
   })();
 </script>

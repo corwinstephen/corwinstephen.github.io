@@ -5,7 +5,7 @@
 layout: home
 ---
 
-- [Plastics Podcast](./plastics)
+- [Plastics Podcast](https://plasticspod.org)
 - [ddriftt](https://ddriftt.com)
 - [Textures](./textures)
 - [An empty lot](./lot)

@@ -184,19 +184,19 @@ li {
   }
 }
 
-@keyframes drift-off {
+@keyframes orbit {
   from {
-    transform: translateX(0);
+    transform: rotate(0deg) translateX(0.0075em) rotate(0deg);
   }
 
   to {
-    transform: translateX(100vw);
+    transform: rotate(360deg) translateX(0.0075em) rotate(-360deg);
   }
 }
 
 .drift-dot {
   display: inline-block;
-  animation: drift-off 450s linear forwards;
+  animation: orbit 0.45s linear infinite;
 }
 
 .site-nav {

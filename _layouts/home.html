@@ -13,8 +13,17 @@ layout: default
 <!-- {%-include menu_item.html collection=site.data.menu.entries-%} -->
 
 <nav class="site-nav">
-  {{ content }}
-  <span class="site-copy">© {{ 'now' | date: '%Y' }}</span>
+  {% if site.posts.size > 0 %}
+  <p class="site-posts">
+    {% for post in site.posts %}
+    <a href="{{ post.url | relative_url }}">{{ post.date | date: site.theme_config.date_format }}</a>
+    {% endfor %}
+  </p>
+  {% endif %}
+  <div class="site-nav-row">
+    {{ content }}
+    <span class="site-copy">© {{ 'now' | date: '%Y' }}</span>
+  </div>
 </nav>
 
 <script>
@@ -45,11 +54,11 @@ layout: default
     }
 
     var seps = "ふくざつけい";
-    var nav = document.querySelector(".site-nav");
-    if (!nav) return;
+    var row = document.querySelector(".site-nav-row");
+    if (!row) return;
 
-    var targets = Array.prototype.slice.call(nav.querySelectorAll("li")).slice(1);
-    var copy = nav.querySelector(".site-copy");
+    var targets = Array.prototype.slice.call(row.querySelectorAll("li")).slice(1);
+    var copy = row.querySelector(".site-copy");
     if (copy) targets.push(copy);
 
     targets.forEach(function (el, i) {

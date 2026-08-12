@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+{%- include back_link.html -%}
+
+<article class="post">
+  <p class="post-meta">
+    <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+  </p>
+
+  {{ content }}
+</article>
+
+<script>
+  (function () {
+    function classify(el, i) {
+      el.classList.add(i % 2 === 0 ? "post-img--left" : "post-img--right");
+      var w = el.naturalWidth || el.videoWidth;
+      var h = el.naturalHeight || el.videoHeight;
+      var landscape = w >= h;
+      el.classList.add(landscape ? "post-img--landscape" : "post-img--portrait");
+    }
+
+    document
+      .querySelectorAll("article.post img, article.post video")
+      .forEach(function (el, i) {
+        if (el.tagName === "VIDEO") {
+          if (el.readyState >= 1 && el.videoWidth) {
+            classify(el, i);
+          } else {
+            el.addEventListener("loadedmetadata", function () {
+              classify(el, i);
+            });
+          }
+          return;
+        }
+
+        if (el.complete && el.naturalWidth) {
+          classify(el, i);
+        } else {
+          el.addEventListener("load", function () {
+            classify(el, i);
+          });
+        }
+      });
+  })();
+</script>

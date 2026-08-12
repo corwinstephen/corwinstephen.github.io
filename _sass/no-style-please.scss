@@ -46,6 +46,69 @@ body {
   text-align: right;
 }
 
+.post {
+  --post-col: 22.5rem;
+  --post-img-shift: 5rem;
+  --post-img-max-height: 21rem;
+  box-sizing: border-box;
+  max-width: var(--post-col);
+  margin: 0 auto;
+  padding-bottom: 4rem;
+
+  img,
+  video {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  video {
+    left: auto;
+    right: auto;
+    width: auto;
+    max-width: none;
+  }
+
+  .post-img--portrait {
+    width: 75%;
+    max-width: none;
+    height: auto;
+
+    &.post-img--left {
+      margin-right: auto;
+      transform: translateX(calc(-1 * var(--post-img-shift)));
+    }
+
+    &.post-img--right {
+      margin-left: auto;
+      transform: translateX(var(--post-img-shift));
+    }
+  }
+
+  .post-img--landscape {
+    position: relative;
+    width: auto;
+    max-width: min(67.5vw, 36rem);
+    height: auto;
+    max-height: var(--post-img-max-height);
+
+    &.post-img--left {
+      transform: translateX(calc(-1 * var(--post-img-shift)));
+    }
+
+    &.post-img--right {
+      // Anchor to the column's right edge, then nudge past it
+      transform: translateX(calc(var(--post-col) - 100% + var(--post-img-shift)));
+    }
+  }
+
+  @media (max-width: 40rem) {
+    --post-col: 17.5rem;
+    --post-img-shift: 2.5rem;
+    --post-img-max-height: 13.5rem;
+  }
+}
+
 h2,
 h3,
 h4,
@@ -196,8 +259,9 @@ li {
   right: 2rem;
   bottom: 2rem;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
   font-size: 0.9rem;
   text-transform: uppercase;
 
@@ -224,6 +288,34 @@ li {
       content: var(--sep, "ふ");
       margin: 0 0.85rem;
     }
+  }
+
+  .site-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65em;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    font-size: inherit;
+    line-height: inherit;
+
+    a {
+      margin: 0;
+      padding: 0;
+      color: LinkText;
+      text-decoration: underline;
+
+      &:visited {
+        color: VisitedText;
+      }
+    }
+  }
+
+  .site-nav-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   .site-copy {
@@ -270,6 +362,10 @@ blockquote {
 
   p {
     margin: 0;
+  }
+
+  p + p {
+    margin-top: 1.75rem;
   }
 }
 

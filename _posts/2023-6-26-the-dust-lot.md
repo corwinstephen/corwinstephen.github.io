@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🌱 The Dust Lot"
+title:  "The Dust Lot"
 date:   2023-6-26 22:32:00 -0500
 categories:
   - pollinators

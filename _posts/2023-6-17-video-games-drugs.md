@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🎮 games, drugs"
+title:  "games, drugs"
 date:   2023-6-17 14:05:00 -0500
 categories:
   - video games

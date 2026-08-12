@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "⛩️ escaping to nature"
+title:  "escaping to nature"
 date:   2023-7-3 22:40:00 -0500
 categories:
   - ecology

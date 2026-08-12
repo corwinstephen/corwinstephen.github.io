@@ -115,7 +115,9 @@ body {
 
     &.post-img--right {
       // Anchor to the column's right edge, then nudge past it
-      transform: translateX(calc(var(--post-col) - 100% + var(--post-img-shift)));
+      transform: translateX(
+        calc(var(--post-col) - 100% + var(--post-img-shift))
+      );
     }
   }
 
@@ -151,7 +153,7 @@ hr {
 }
 
 p {
-  margin: 1rem 0;
+  margin: 3rem 0;
 }
 
 li {

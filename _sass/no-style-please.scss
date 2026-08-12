@@ -172,6 +172,7 @@ li {
   margin: 0;
   padding: 2rem;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 .site-mark {
@@ -183,93 +184,19 @@ li {
   }
 }
 
-@keyframes erratic-wiggle {
-  0% {
-    transform: translateY(0);
+@keyframes drift-off {
+  from {
+    transform: translateX(0);
   }
 
-  8% {
-    transform: translateY(-0.015em);
-  }
-
-  14% {
-    transform: translateY(0.006em);
-  }
-
-  22% {
-    transform: translateY(-0.02em);
-  }
-
-  30% {
-    transform: translateY(0.004em);
-  }
-
-  38% {
-    transform: translateY(-0.012em);
-  }
-
-  48% {
-    transform: translateY(0.008em);
-  }
-
-  58% {
-    transform: translateY(-0.018em);
-  }
-
-  68% {
-    transform: translateY(0);
-  }
-
-  78% {
-    transform: translateY(-0.008em);
-  }
-
-  88% {
-    transform: translateY(0.006em);
-  }
-
-  100% {
-    transform: translateY(0);
+  to {
+    transform: translateX(100vw);
   }
 }
 
-@keyframes big-wiggle-up {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  45% {
-    transform: translateY(-0.35em);
-  }
-}
-
-@keyframes big-wiggle-down {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  45% {
-    transform: translateY(0.35em);
-  }
-}
-
-.wiggle-dot {
+.drift-dot {
   display: inline-block;
-
-  &.wiggle-up {
-    animation: big-wiggle-up 0.45s ease-in-out;
-  }
-
-  &.wiggle-down {
-    animation: big-wiggle-down 0.45s ease-in-out;
-  }
-}
-
-.wiggle-dot__inner {
-  display: inline-block;
-  animation: erratic-wiggle 2.6s ease-in-out infinite;
+  animation: drift-off 450s linear forwards;
 }
 
 .site-nav {

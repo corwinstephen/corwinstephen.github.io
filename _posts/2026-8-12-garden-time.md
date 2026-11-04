@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "garden time"
+title: "Abuandance isn't the cure, gardening is."
 date: 2026-8-12 10:30:00 -0700
 categories:
   - ecology

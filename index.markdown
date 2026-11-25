@@ -7,6 +7,7 @@ layout: home
 
 - [Plastics Podcast](https://plasticspod.org)
 - [ddriftt](https://ddriftt.com)
+- [Grant Hand](https://granthand.co)
 - [Textures](./textures)
 - [An empty lot](./lot)
 - [Compositions](./odds_and_ends)
